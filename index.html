@@ -89,38 +89,45 @@
         <div class="row text-center">
           <p>VENTA</p>
           <h1>VALOR DE TICKET $200</h1>      
-            <div class="col mb-3">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
-            </div>
-            <div class="mb-3">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
-            </div>
-            <p class="col justify-content-left">Cantidad</p>
-            <p class="col text-left justify-content-left">Categoria</p> 
-        </div>  
-        <div class="row text-center"> 
-          <div class="col mb-3">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Cantidad">
-          </div>
-          <div class="col mb-3">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Estudiante">
-          </div>
-          <div class=" mb-3">
-            <input type="text" class="form-control bg-info " id="exampleFormControlInput1" placeholder="Total a Pagar: $ ">
-          </div>
-          <div class="col mb-3">
-            <button type="button" class="btn btn-lg text-white bg-success"  style="width: 100%">Borrar</button>
-          </div>
-          <div class="col">
-            <button type="button" class="btn btn-lg text-white bg-success" style="width: 100%">Resumen</button>
-          </div>
-        </div>
-  </main> 
+           <form class="row g-3 justify-content-">
+              <div class="col-md-6 " >
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="nombre" class="form-control" id="inputNombre" placeholder="Nombre">
+                
+              </div>
+              <div class="col-md-6">
+                <label for="Apellido" class="form-label">Apellido</label>
+                <input type="Apellido" class="form-control" id="inputApellido" placeholder="Apellido">
+              </div>
+              <div class="col-12">
+                <label for="Correo" class="form-label">Correo</label>
+                <input type="text" class="form-control" id="inputCorreo"placeholder="Correo" >
+              </div>
+              <div class="col-md-6">
+                <label for="inputCantidad" class="form-label">Cantidad</label>
+                <input type="text" class="form-control" id="inputCantidad">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCategoria" class="form-label">Categoria</label>
+                <select id="inputCategoria" class="form-select">
+                  <option selected>Estudiante</option>
+                  <option>Trainee</option>
+                  <option>Junior</option>
+                </select>
+              </div>
+              <div class=" mb-3">
+                <input type="text" class="form-control bg-info " id="exampleFormControlInput1" placeholder="Total a Pagar: $ ">
+              </div>
+              <div class="col mb-3">
+                <button type="button" class="btn btn-lg text-white bg-success"  style="width: 100%">Borrar</button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-lg text-white bg-success" style="width: 100%">Resumen</button>
+              </div>
+            </form>
+  </main>                 
 
-    <footer class="bg-info text-light text-center">
+    <footer class=" bg-info text-light text-center ">
       
       <div class="container " >
         
